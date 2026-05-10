@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar">
+
+      <!-- Logo -->
+      <div class="nav-logo">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" class="logo-img"/>
+        </a>
+      </div>
+
+      <!-- Delivery Location -->
+      <div class="nav-address">
+        <span class="deliver-to">Deliver to</span>
+        <span class="address"><i class="fas fa-location-dot"></i> India</span>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+          <option>Electronics</option>
+          <option>Books</option>
+          <option>Fashion</option>
+          <option>Mobiles</option>
+        </select>
+        <input type="text" class="search-input" placeholder="Search Amazon.in" />
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+
+      <!-- Language -->
+      <div class="nav-lang">
+        <span>EN <i class="fas fa-caret-down"></i></span>
+      </div>
+
+      <!-- Account -->
+      <div class="nav-account">
+        <span class="hello-text">Hello, sign in</span>
+        <span class="account-text">Account & Lists <i class="fas fa-caret-down"></i></span>
+      </div>
+
+      <!-- Returns -->
+      <div class="nav-returns">
+        <span class="hello-text">Returns</span>
+        <span class="account-text">& Orders</span>
+      </div>
+
+      <!-- Cart -->
+      <div class="nav-cart">
+        <a href="#">
+          <i class="fas fa-shopping-cart cart-icon"></i>
+          <span class="cart-count">3</span>
+          <span class="cart-text">Cart</span>
+        </a>
+      </div>
+
+    </nav>
+
+    <!-- Sub Navbar -->
+    <nav class="sub-navbar">
+      <ul>
+        <li><a href="#"><i class="fas fa-bars"></i> All</a></li>
+        <li><a href="#">Today's Deals</a></li>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">Registry</a></li>
+        <li><a href="#">Gift Cards</a></li>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#" class="prime-link">🎬 Prime Video</a></li>
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">New Releases</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Fashion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO BANNER ===== -->
+  <section class="hero-banner">
+    <div class="banner-slider">
+      <img src="https://m.media-amazon.com/images/I/61Z5DaOEVeL._SX3000_.jpg" alt="Banner" class="banner-img" />
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+
+    <!-- ===== SHOP SECTION ===== -->
+    <section class="shop-section">
+
+      <!-- Box 1: Electronics -->
+      <div class="shop-box">
+        <h2>Electronics</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/81Zt42ioCgL._AC_SX679_.jpg" alt="TV"/><p>Smart TVs</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/71jG+e7roXL._AC_SX679_.jpg" alt="Cam"/><p>Cameras</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_SX679_.jpg" alt="Speaker"/><p>Speakers</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SX679_.jpg" alt="Headphone"/><p>Headphones</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <!-- Box 2: Fashion -->
+      <div class="shop-box">
+        <h2>Fashion Deals</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/913MvgSdHYL._AC_UL480_FMwebp_QL65_.jpg" alt="Shirt"/><p>Men's Shirts</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61tVbeaN4PL._AC_UL480_FMwebp_QL65_.jpg" alt="Dress"/><p>Women's Dress</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/71bS2c+n-rL._AC_UL480_FMwebp_QL65_.jpg" alt="Watch"/><p>Watches</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/91IPG12W1GL._AC_UY327_FMwebp_QL65_.jpg" alt="Bag"/><p>Handbags</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <!-- Box 3: Books -->
+      <div class="shop-box">
+        <h2>Books & More</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UY436_QL65_.jpg" alt="Book"/><p>Bestsellers</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/71Xpd1xEKcL._AC_UY327_FMwebp_QL65_.jpg" alt="Novel"/><p>Novels</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/81p1nkYo4NL._AC_UY327_FMwebp_QL65_.jpg" alt="Kids"/><p>Kids Books</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/81T05w0B3lL._AC_UY327_FMwebp_QL65_.jpg" alt="Self Help"/><p>Self Help</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <!-- Box 4: Mobiles -->
+      <div class="shop-box">
+        <h2>Top Mobiles</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SX679_.jpg" alt="iPhone"/><p>iPhone</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/71CEv09j+HL._AC_UY327_FMwebp_QL65_.jpg" alt="Samsung"/><p>Samsung</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/616kkUbRg4L._AC_UY327_FMwebp_QL65_.jpg" alt="OnePlus"/><p>OnePlus</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/81uGa3uCO1L._AC_UY327_FMwebp_QL65_.jpg" alt="Redmi"/><p>Redmi</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <!-- Box 5: Home -->
+      <div class="shop-box">
+        <h2>Home & Kitchen</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61Z7VnhSQ-L._AC_UL480_FMwebp_QL65_.jpg" alt="Sofa"/><p>Sofas</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/51-Ha4CU+4L._AC_UY327_FMwebp_QL65_.jpg" alt="Mixer"/><p>Mixers</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/714eJ1n7DpL._AC_UL480_FMwebp_QL65_.jpg" alt="Lamp"/><p>Lamps</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61yDVoNusvS._AC_UL480_FMwebp_QL65_.jpg" alt="Cooker"/><p>Cookers</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <!-- Box 6: Sports -->
+      <div class="shop-box">
+        <h2>Sports & Fitness</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61NEUWb5A4L._AC_UL480_FMwebp_QL65_.jpg"/><p>Dumbbells</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61u-yef2rzL._AC_UL480_FMwebp_QL65_.jpg" alt="Yoga"/><p>Yoga Mat</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/811u-O7D+UL._AC_UY327_FMwebp_QL65_.jpg" alt="Cycle"/><p>Cycles</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61bhHYnCsoL._AC_UL480_FMwebp_QL65_.jpg" alt="Shoes"/><p>Sports Shoes</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <!-- Box 7: Deals -->
+      <div class="shop-box">
+        <h2>Today's Big Deals</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61SHFVKs+AL._AC_UY327_FMwebp_QL65_.jpg" alt="Deal1"/><p>Laptops</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/71tf3TZTxJL._AC_UY327_FMwebp_QL65_.jpg" alt="Deal2"/><p>Tablets</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/51IUVEtKWaL._AC_UY327_FMwebp_QL65_.jpg" alt="Deal3"/><p>Earbuds</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/51ywHGbusAL._AC_UY327_FMwebp_QL65_.jpg" alt="Deal4"/><p>Chargers</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <!-- Box 8: Grocery -->
+      <div class="shop-box">
+        <h2>Grocery & Pantry</h2>
+        <div class="shop-box-images">
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/71K0dAqGRmL._AC_UL480_FMwebp_QL65_.jpg" alt="Tea"/><p>Tea & Coffee</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/91F9+-E5+FL._AC_UL480_FMwebp_QL65_.jpg" alt="Snacks"/><p>Snacks</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/61jKOMoMBNL._AC_UL480_FMwebp_QL65_.jpg" alt="Oil"/><p>Cooking Oil</p></div>
+          <div class="shop-img-wrap"><img src="https://m.media-amazon.com/images/I/91sjEAy2I4L._AC_UL480_FMwebp_QL65_.jpg" alt="Atta"/><p>Atta & Rice</p></div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <!-- Back to top -->
+    <div class="footer-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+      Back to top
+    </div>
+
+    <!-- Footer Links -->
+    <div class="footer-links">
+      <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li><a href="#">About Amazon</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press Releases</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <ul>
+          <li><a href="#">Sell on Amazon</a></li>
+          <li><a href="#">Sell under Amazon Accelerator</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Let Us Help You</h3>
+        <ul>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Returns Centre</a></li>
+          <li><a href="#">Recalls and Product Safety Alerts</a></li>
+          <li><a href="#">100% Purchase Protection</a></li>
+          <li><a href="#">Amazon App Download</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" class="footer-logo"/>
+      <p>&copy; 2024 Amazon Clone | Built with HTML & CSS</p>
+      <div class="footer-bottom-links">
+        <a href="#">Conditions of Use & Sale</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Interest-Based Ads</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
